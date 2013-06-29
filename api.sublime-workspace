@@ -1,0 +1,548 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"login",
+				"loginUrl"
+			],
+			[
+				"acc",
+				"access_token"
+			],
+			[
+				"vestiaire",
+				"vestiairecollective"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"ves",
+				"vestiairecollective"
+			],
+			[
+				"coun",
+				"country"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.php",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/tpl/footer.tpl",
+			"settings":
+			{
+				"buffer_size": 1002,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en\">\n{include=\"header\"}\n<body>\n\n{include=\"navbar\"}\n\n \n\n\n\n{if=\"$user!=''\"}\nyou are logged in\n{else}\n<a href='#' class=\"fb_login\">fb login</a>\n{/if} \n\n\n    <div class=\"container-narrow\">\n\n      <div class=\"jumbotron\">\n        <h1>Super awesome marketing speak!</h1>\n        <p class=\"lead\">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>\n        <a class=\"btn btn-large btn-success\" href=\"#\">Sign up today</a>\n      </div>\n\n      <hr>\n\n      <div class=\"row-fluid marketing\">\n        <div class=\"span6\">\n          <h4>Subheading</h4>\n          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>\n\n          <h4>Subheading</h4>\n          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>\n\n          <h4>Subheading</h4>\n          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>\n        </div>\n\n        <div class=\"span6\">\n          <h4>Subheading</h4>\n          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>\n\n          <h4>Subheading</h4>\n          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>\n\n          <h4>Subheading</h4>\n          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>\n        </div>\n      </div>\n\n      <hr>\n\n      <div class=\"footer\">\n        <p>&copy; Company 2013</p>\n      </div>\n\n    </div> <!-- /container -->\n\n\n\n\n{include=\"footer\"}\n</body>\n</html>\n",
+			"file": "public/tpl/main.tpl",
+			"file_size": 3643,
+			"file_write_time": 1372463917000000,
+			"settings":
+			{
+				"buffer_size": 1745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/tpl/navbar.tpl",
+			"settings":
+			{
+				"buffer_size": 1899,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 490,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "$(function() {\n\n	$(\".fb_login\").on(\"click\", function(event){\n	    FB.login(function(response){\n			console.log('test');\n	    },{scope:'email,publish_actions,user_birthday,user_checkins'});\n	});\n});",
+			"file": "public/assets/script/main.js",
+			"file_size": 203,
+			"file_write_time": 1372455756000000,
+			"settings":
+			{
+				"buffer_size": 196,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/inc.php",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/conf.php",
+			"settings":
+			{
+				"buffer_size": 345,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/adrien/workspace/adrien/api/libs/vendors/raintpl/tpl/main.html",
+		"/Users/adrien/workspace/adrien/api/libs/vendors/raintpl/tpl/footer.html",
+		"/Users/adrien/workspace/adrien/api/libs/vendors/raintpl/tpl/header.html",
+		"/Users/adrien/workspace/adrien/api/libs/vendors/raintpl/tpl/index.html",
+		"/Users/adrien/workspace/adrien/api/libs/vendors/raintpl/example.php",
+		"/Users/adrien/workspace/adrien/api/libs/autoloader.php",
+		"/Users/adrien/workspace/adrien/api/libs/core/PDOWrapper.class.php",
+		"/Users/adrien/workspace/adrien/api/libraries/vendors/raintpl-v.2.7.2/example.php",
+		"/Users/adrien/Downloads/error.vc.txt",
+		"/private/etc/apache2/extra/httpd-userdir.conf",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/System/Library/LaunchDaemons/org.apache.httpd.plist",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/81E8000F-64F1-469D-9C48-A36EB3B0C30B/index.php",
+		"/Users/adrien/Desktop/vc_shipservice.debug.txt",
+		"/Users/adrien/Downloads/5-17-13 11-50-48 AM.tcx",
+		"/Users/adrien/Downloads/new-brands.csv",
+		"/Users/adrien/Downloads/php/RateAvailableServicesWebServiceClient/RateAvailableServicesWebServiceClient.php",
+		"/Users/adrien/Downloads/RE_SEO__lien_CGU.msg",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/6A4657E5-445F-4573-B351-510FAA05A62D/index.html",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/2850F40C-9DDB-457F-BA97-F5E86F246F5E/index.php",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/D65E3115-025D-4E36-902F-B8FDF80D78C2/email.html",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/CDF82591-24C7-423B-89ED-29D4504ADCC7/emails.txt",
+		"/Users/adrien/Downloads/page29.txt",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/508B322E-322D-4883-B66B-60CF3AB75782/email.html",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/92ACCB38-301C-474F-8552-AC64FFE93D65/index.php",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/BC6505DD-9530-4155-A418-95AD784601E5/fb.php",
+		"/Users/adrien/Downloads/notes.txt",
+		"/Users/adrien/workspace/adrien/mobile/index.html",
+		"/Users/adrien/Downloads/php 3/library/fedex-common.php5",
+		"/Users/adrien/Downloads/php 3/RateWebServiceClient/Rate/RateWebServiceClient.php",
+		"/Users/adrien/Downloads/rounded-pvn.cvs",
+		"/Users/adrien/Downloads/attribution-bijoux.csv",
+		"/Users/adrien/vestiaire/fedex/webservices/advanced_php/php 7/PickupAvailabilityWebServiceClient/PickupAvailabilityWebServiceClient.php",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-cat-accessoires-fr.xml",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-cat-bain-fr.xml",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-fr.xml",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-femme-baskets-fr.xml",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-femme-sacsdevoyage-fr.xml",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-femme-mocassins-fr.xml",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-us.xml",
+		"/Users/adrien/workspace/vestiaire/cache/sitemap/sitemap-www.xml",
+		"/Users/adrien/vestiaire/portero/questions.txt",
+		"/Users/adrien/workspace/vestiaire/tools/scrum/jquery.grid-a-licious.min.js",
+		"/Users/adrien/Downloads/Wiesebron Family Tree.ged",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/5F1A55DE-4726-4EF3-B85E-9B8FD25F0E4E/Payment.class.php",
+		"/Users/adrien/Desktop/snowflakes/index.html",
+		"/Users/adrien/Desktop/snowflakes/styles.css",
+		"/Users/adrien/vestiaire/fedex/webservices/advanced_php/php 4/CreatePickupWebServiceClient/CreatePickupWebServiceClient.php",
+		"/Users/adrien/Downloads/conf/apache2/httpd.conf",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/8DA059BA-5DFB-4220-91E0-8C91105A3370/index.php",
+		"/Users/adrien/workspace/vestiaire/smarty/template/produit_ajout_photo_supp.tpl",
+		"/Volumes/devels/_common_alexandre/public_html/api/methods/v1/listMyProducts.method.php",
+		"/Volumes/devels/_common_benjamin/public_html/api/methods/v1/wishProduct.method.php",
+		"/Users/adrien/vestiaire/dump/exportdev/exportdev/vestiairedecopines_com.produit.sql",
+		"/Users/adrien/vestiaire/dump/exportdev/migrate.sh",
+		"/Volumes/BUFFER/conf/php.ini",
+		"/Users/adrien/Downloads/conf/php.ini",
+		"/Users/adrien/vestiaire/dump/migrate.sh",
+		"/Users/adrien/Desktop/The.Raid.Redemption.2011.HDRip.XviD-playXD.srt",
+		"/Users/adrien/Downloads/dhl_requetes_example.xml",
+		"/Users/adrien/Desktop/kickstart.app/Contents/MacOS/applet",
+		"/private/etc/php.ini",
+		"/Volumes/BUFFER/conf/apache2/extra/httpd-vc.conf",
+		"/Volumes/BUFFER/conf/apache2/httpd.conf",
+		"/Volumes/BUFFER/conf/hosts",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/EF6FE805-87F9-476B-BE5B-97C67B88E6A3/helper.php",
+		"/Users/adrien/Library/Caches/Cleanup At Startup/Transmit/2718DB1C-8689-4465-A75E-6B449939E7EC/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"neuf-",
+			"\n\n",
+			"\n",
+			",",
+			"\n",
+			"%26",
+			"%3D",
+			"\n",
+			",",
+			"\n",
+			"\n\n",
+			"\n",
+			"buil",
+			"print",
+			"var_du",
+			"session",
+			"rewrite",
+			"redir",
+			"error",
+			"register",
+			"magic_quotes_gpc/register",
+			"error_lo",
+			"Directory"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"new-",
+			" ",
+			"','",
+			",",
+			"&",
+			"=",
+			",",
+			" ",
+			",",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.php",
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/tpl/footer.tpl",
+					"settings":
+					{
+						"buffer_size": 1002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/tpl/main.tpl",
+					"settings":
+					{
+						"buffer_size": 1745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/tpl/navbar.tpl",
+					"settings":
+					{
+						"buffer_size": 1899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1899,
+								1899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/assets/script/main.js",
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/inc.php",
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/conf.php",
+					"settings":
+					{
+						"buffer_size": 345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
